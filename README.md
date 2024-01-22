@@ -47,11 +47,11 @@ let c = `${a +', ' + b + '!'}`
 
 Number:
 let d = 1234
-let e = "10" - "5"
+let e = 1e5
 
 Boolean:
 let f = true
-let g = 5 < 0 // false
+let g = Boolean('')
 
 Null:
 let h = null
@@ -65,7 +65,7 @@ let k = Symbol("k")
 
 BigInt:
 const bigInt1 = 1234567890123456789n
-const bigInt2 = 9876543210987654321n
+const bigInt2 = 0n
 
 4) Почему, если обратиться к переменным созданным через let, const до их объявления - мы получаем ReferenceError? 
 
